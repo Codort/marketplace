@@ -1,0 +1,38 @@
+{
+  "name": "CodortMarketplace",
+  "description": "Marketplace for SCM tools.",
+  "license": "Apache-2.0",
+  "version": "0.0.0.9000",
+  "author": "Codort <hello@codort.com>",
+  "type": "module",
+  "main": "./nuxt.config.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Codort/marketplace.git"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "yarn run eslint && yarn run prettier",
+    "eslint": "eslint .",
+    "prettier": "prettier . --check",
+    "lintfix": "prettier --write --list-different ."
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.8.1",
+    "@nuxt/ui": "^2.18.7",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "nuxt": "^3.13.0",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "sass-embedded": "^1.79.5",
+    "tailwindcss": "^3.4.14"
+  }
+}
